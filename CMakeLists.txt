@@ -1,0 +1,5 @@
+PROJECT(HELLO-CPP)
+SET(SRC_LIST src/虚函数与纯虚函数/main.cpp)
+MESSAGE(STATUS "This is Binary Dir " ${HELLO-CPP_BIRNARY_DIR})
+MESSAGE(STATUS "This is Source Dir " ${HELLO-CPP_SOURCE_DIR})
+ADD_EXECUTABLE(virtual_func_test ${SRC_LIST})
