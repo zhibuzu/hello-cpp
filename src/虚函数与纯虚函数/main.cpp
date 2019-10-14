@@ -2,18 +2,18 @@
 #include <cstdio>
 
 // Parent-Parent class
-// class ParentParent {
-// public:
-//     ParentParent() {
-//         std::cout << "Hi, I am ParentParent\n";
-//     }
-//     virtual ~ParentParent() {
-//         std::cout << "Bye, I am ParentParent\n";
-//     }
-// };
+class ParentParent {
+public:
+    ParentParent() {
+        std::cout << "Hi, I am ParentParent\n";
+    }
+    virtual ~ParentParent() {
+        std::cout << "Bye, I am ParentParent\n";
+    }
+};
 
 // Base class
-class Base {
+class Base : public ParentParent {
 public:
     Base() {
         std::cout << "Hi, I am Base\n";
