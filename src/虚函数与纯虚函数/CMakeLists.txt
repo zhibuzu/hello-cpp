@@ -1,0 +1,8 @@
+PROJECT(VIRTUAL-FUNC)
+SET(SRC_LIST main.cpp)
+MESSAGE(STATUS "This is Binary Dir " ${HELLO-CPP_BIRNARY_DIR})
+MESSAGE(STATUS "This is Source Dir " ${HELLO-CPP_SOURCE_DIR})
+ADD_EXECUTABLE(virtual_func_test ${SRC_LIST})
+
+
+
